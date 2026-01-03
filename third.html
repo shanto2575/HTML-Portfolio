@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> 3rd project </title>
+    <style>
+        table {
+            width: 600px;
+            height: 230px;
+            border-collapse: collapse;
+        }
+
+        th,
+        tr,
+        td {
+            border: 2px solid blue;
+        }
+
+        tr {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>🌍 Global Tech Conference 2025</h1>
+        <hr>
+        <p>Join the world's brightest innovators and developers in Dhaka!</p>
+
+        <nav>
+            <ol>
+                <li><a href="#about">About</a></li>
+                <li><a href="#speaker">Speaker</a> </li>
+                <li><a href="#event">Events schedule</a> </li>
+                <li><a href="#registration">Registration From</a> </li>
+                <li><a href="#media">Event Highlights</a> </li>
+            </ol>
+        </nav>
+    </header>
+    <hr>
+    <div>
+        <strong id="about">About the Conference</strong>
+        <p>The Global Tech Conference 2025 brings together experts in AI, Robotics, and Cybersecurity.</P>
+        <P> The event will be held in <strong>Dhaka, Bangladesh</strong>, featuring 50+ speakers and 1000+ participants
+            from around the world.</p>
+    </div>
+    <hr>
+    <section id="speaker">
+        <h2>Keynote Speakers</h2>
+        <p>
+            <img src="imges/amina.jpeg" height="100" width="130" alt="image"><br>
+            <strong>Dr. Amina Rahman-</strong> AI Researcher, Google DeepMind
+        </p>
+        <p>
+            <img src="imges/chen.jpeg" height="100" width="130" alt="image"><br>
+            <strong>Prof. Liam Chen – </strong>Robotics Expert, MIT
+        </p>
+        <p>
+            <img src="imges/jiso.webp" height="100" width="130" alt="image"><br>
+            <strong>Elena Kostov – </strong>Cybersecurity Director, Microsoft
+        </p>
+        <P>
+            <strong>Other Speakers</strong><br>
+            <img src="imges/asia.png" alt="Conference Speakers" width="600" height="300">
+        </P>
+    </section>
+    <hr>
+    <section id="event">
+        <h2>Event Schedule</h2>
+        <table>
+            <caption >Conference Schedule</caption>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Topic</th>
+                    <th>Speaker</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>12.00 PM-2.00 PM</td>
+                    <td>Future of Artificial Intelligence</td>
+                    <td>Dr. Amina Rahman</td>
+                </tr>
+                <tr>
+                    <td>2.00 PM-4.00 PM</td>
+                    <td>Advancements in Robotics</td>
+                    <td>Prof. Liam Chen</td>
+                </tr>
+                <tr>
+                    <td>4.00 PM-6.00 PM</td>
+                    <td>Cybersecurity in 2025</td>
+                    <td>Elena Kostov</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <hr>
+    <section id="registration">
+        <h2>Registration Form</h2>
+        <form>
+            <label>Full Name :</label>
+            <input type="text" id="full-name" name="full name" required><br><br>
+
+            <label>Email :</label>
+            <input type="Email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label>Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label>Female</label><br><br>
+
+            <label for="topic">Preferred Topic:</label>
+            <select id="topic" name="topic">
+                <option>AI</option>
+                <option>Robotics</option>
+                <option>Cyberscurity</option>
+            </select><br><br>
+
+            <label>Upload Resume:</label>
+            <input type="file" id="uplode-resume" name="uplode resume"><br><br>
+
+            <label>Aditional Comments:</label><br>
+            <textarea></textarea><br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </form>
+    </section>
+    <hr>
+    <section id="media">
+        <h2>Event Highlights</h2>
+        <p>Promo video:</p><br>
+        <video height="300" width="500" controls>
+            <source src="" type="video/mp4">
+            video is not support your devices
+        </video><br>
+
+        <p>Audio thems:</p>
+        <audio controls>
+            <source src="" type="audio/mpeg">
+            audio is not support your devices
+        </audio>
+    </section>
+    <hr>
+
+    <footer>
+        <p>&copy; 2025 Global Tech Conferrence | Designed by <strong>shanto dev sharma</strong></p>
+        <p ><a href="#top">Back to top</a></p>
+    </footer>
+</body>
+
+</html>
